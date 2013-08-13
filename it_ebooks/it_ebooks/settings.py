@@ -11,6 +11,7 @@ BOT_NAME = 'it_ebooks'
 SPIDER_MODULES = ['it_ebooks.spiders']
 NEWSPIDER_MODULE = 'it_ebooks.spiders'
 
+DUPEFILTER_CLASS = 'it_ebooks.dupefilter.MyDupeFilter'
 HTTPCACHE_ENABLED = True
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'it_ebooks (+http://www.yourdomain.com)'
