@@ -9,6 +9,7 @@ class ItEbooksItem(Item):
     # define the fields for your item here like:
     # name = Field()
     name = Field()
+    publisher = Field()
     url = Field()
     description = Field()
     download_link = Field()
